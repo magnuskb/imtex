@@ -49,3 +49,67 @@ input[type=text] {
 input[type=text]:focus {
     width: 15%;
 }
+
+/*Splash billede*/
+#splash {
+    width: 100%;
+    height: 167.2vw;
+    background-image: url(img/mobil-portraet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (orientation:landscape) and (max-width: 627px) and (min-width: 376px) {
+    #splash {
+        background-image: url(img/mobile-landscape.jpg);
+        height: 59.8vw;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 376px) {
+    #splash {
+        background-image: url(img/tablet-portrait.jpg);
+        height: 133vw;
+    }
+}
+
+@media screen and (orientation:landscape) and (min-width: 628px) and (max-width: 1024px) {
+    #splash {
+        background-image: url(img/tablet-landscape.jpg);
+        height: 75vw;
+    }
+}
+
+@media screen and (orientation:landscape) and (min-width: 1024px) {
+    #splash {
+        background-image: url(img/desktop.jpg);
+        height: 56.25vw;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+    #splash {
+        background-image: url('img/desktop-retina.jpg');
+    }
+}
+
+.forsidetekst {
+text-align: center;
+}
+
+
+/*Skrifter*/
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 600%;
+    margin-bottom: 0;
+
+
+}
+
+p {
+    font-family: 'Franklin Gothic Book';
+    font-size: 130%;
+}
