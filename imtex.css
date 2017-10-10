@@ -1,0 +1,51 @@
+/*Navigation*/
+
+header {
+    position: fixed;
+    width: 100vw;
+    padding: 1em;
+   }
+
+header nav {
+    font-family: 'arial regular';
+    font-size: 120%;
+    text-align: right;
+    margin: 0 5vw 0 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 4px;
+    display: block;
+}
+
+header nav a:hover {
+    color: orange;
+}
+
+@media screen and (min-width:676px) {
+    header nav a {
+        display: inline-block;
+    }
+}
+
+/*Logo*/
+#splash .logo img {
+    box-sizing: content-box;
+    padding: 5px;
+    width: 15vw;
+
+}
+
+/*Søg bar*/
+input[type=text] {
+    width: 100px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 15%;
+}
