@@ -30,9 +30,7 @@ header nav a:hover {
     }
 }
 
-#dental .column_narrow {
-
-}
+#dental .column_narrow {}
 
 /*Navigation dental side*/
 
@@ -178,7 +176,6 @@ p {
 
 /******** Om seksjon slutt ***********/
 
-
 /* kontakt */
 
 #kontakt {
@@ -194,10 +191,9 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 2;
-    flex-basis: 200px;
+    flex-basis: 400px;
     padding: 20px;
     width: 100%;
-    align-self: auto;
 }
 
 .googleMap {
@@ -208,7 +204,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 400px;
     padding: 20px;
-    width: 100%;
+    width: 100%
 }
