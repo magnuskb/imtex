@@ -176,6 +176,7 @@ p {
     flex-wrap: wrap;
     flex-grow: 2;
     flex-basis: 400px;
+    padding: 20px;
 }
 
 #kontakt .column_narrow {
@@ -183,4 +184,5 @@ p {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 400px;
+    padding: 20px;
 }
