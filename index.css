@@ -163,3 +163,24 @@ p {
 
 
 /******** Om seksjon slutt ***********/
+
+/* kontakt */
+
+#kontakt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kontakt .column_wide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    flex-basis: 400px;
+}
+
+#kontakt .column_narrow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
