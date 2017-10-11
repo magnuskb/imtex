@@ -35,17 +35,17 @@ header nav a:hover {
     }
 }
 
-<<<<<<< HEAD
+
 #dental .produkt {
     width: 100px;
     height: 100px;
-    margin-left: 90px;
     margin-bottom: 70px;
-    text-align: center;
+    margin-left: 90px;
 }
-=======
-#dental .column_narrow {}
->>>>>>> origin/master
+
+#dental .column_narrow {
+    margin-top: 35px;
+}
 
 /*Navigation dental side*/
 
@@ -75,6 +75,7 @@ width: 200px;
     display: flex;
     flex-wrap: wrap;
     width: 750px;
+    justify-content: space-around;
 }
 
 img {
