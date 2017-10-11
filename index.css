@@ -58,6 +58,11 @@ header nav a:hover {
     flex-wrap: wrap;
 }
 
+#dental .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*Logo*/
 
 .logo img {
