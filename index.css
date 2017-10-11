@@ -33,7 +33,7 @@ header nav a:hover {
 
 /*Navigation dental side*/
 
-#dental .column_narrow nav a {
+#dental .column_narrow nav  {
     font-family: 'arial regular';
     font-size: 120%;
     text-align: left;
@@ -48,6 +48,7 @@ header nav a:hover {
     display: block;
     padding: 20px 8px;
     text-decoration: none;
+
 }
 
 
