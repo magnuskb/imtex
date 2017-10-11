@@ -35,18 +35,17 @@ header nav a:hover {
     }
 }
 
-<<<<<<< HEAD
-#dental .produkt {
+<<<<<<< HEAD #dental .produkt {
     width: 100px;
     height: 100px;
     margin-left: 90px;
     margin-bottom: 70px;
     text-align: center;
 }
-=======
-#dental .column_narrow {}
->>>>>>> origin/master
 
+=======#dental .column_narrow {}
+
+> > > > > > > origin/master
 /*Navigation dental side*/
 
 #dental .column_narrow nav {
@@ -199,11 +198,6 @@ p {
 /******** Om seksjon slutt ***********/
 
 /* kontakt */
-
-#kontakt {
-    max-width: 1024px;
-    margin: 0 auto;
-}
 
 #kontakt {
     box-sizing: content-box;
