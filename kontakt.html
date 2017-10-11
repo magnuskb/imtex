@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <p>
+                <a href="#splash">Forside</a>
+
+                <a href="#produkter">Produkter</a>
+
+                <a href="#om">Om</a>
+
+                <a href="#kontakt">Kontakt</a>
+            </p>
+            <form>
+                <input type="text" name="search" placeholder="Søg..">
+            </form>
+        </nav>
+
+    </header>
+
+    <section id="kontakt">
+
+        <div class="sectionwrapper">
+
+
+
+
+            <div class="column_wide">
+                <p>ImteX er leverandør af kvalitetsprodukter inden for engangsartikler til medicinalbranchen, hospitaler, laboratorier, tandlæger, og kemisk industri, frisører, tatovører og autoværksteder, stort set alle brancher hvor personlig beskyttelse er et must.</p>
+
+
+                <p>Hos ImteX har vi valgt at fokusere på kvalitet og service samt individuelle løsninger, derfor holder vi meget stærkt på at vores leverandører ikke kun producerer vores vare,men samtidig produktudvikler i samarbejde med kunderne og deres behov.</p>
+
+                <p>Vi forhandler produkter som: Diverse typer engangshandsker og arbejdshandsker, masker, engangsdragter, renrumsprodukter, hovedbeklædning, skoovertræk, renrum produkter, sterile produkter, sprit klude og mange andre produkter. Har du spørgsmål til produkter, så ring eller send os en e-mail, så finder vi sammen en løsning.
+                </p>
+
+            </div>
+
+            <div class="column_narrow">
+
+                <div id="googleMap" style="width:400px;height:400px"> </div>
+                <script>
+                    function myMap() {
+                        var mapProp = {
+                            center: new google.maps.LatLng(55.6437523, 12.3939377),
+                            zoom: 15,
+                        };
+                        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                    }
+                </script>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMQWmVmJDGsi674tTH-o4HPIcKUiyTjaA&callback=myMap"></script>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+
+    </footer>
+
+
+</body>
+
+</html>
