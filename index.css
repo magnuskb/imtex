@@ -4,7 +4,7 @@ header {
     position: fixed;
     width: 100vw;
     padding: 1em;
-   }
+}
 
 header nav {
     font-family: 'arial regular';
@@ -30,28 +30,62 @@ header nav a:hover {
     }
 }
 
+
+/*Navigation dental side*/
+
+#dental .column_narrow nav a {
+    font-family: 'arial regular';
+    font-size: 120%;
+    text-align: left;
+    list-style-type: none;
+    width: 200px;
+    background-color: lightblue;
+    margin-left: 15px;
+
+
+}
+
+#dental .column_narrow nav a {
+    color: black;
+    display: block;
+    padding: 20px 8px;
+    text-decoration: none;
+
+}
+
+dental .column_narrow nav a:hover {
+    color: white;
+
+}
+
+
 /*Logo*/
 
 .logo img {
     box-sizing: content-box;
     padding: 5px;
     width: 15vw;
-
 }
 
+
 /*Søg bar*/
+
 input[type=text] {
     width: 100px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
 
+
 /* tryk på feltet og det ændre width */
+
 input[type=text]:focus {
     width: 15%;
 }
 
+
 /*Splash billede*/
+
 #splash {
     width: 100%;
     height: 167.2vw;
@@ -96,7 +130,7 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 }
 
 .forsidetekst {
-text-align: center;
+    text-align: center;
 }
 
 
@@ -106,8 +140,6 @@ h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 600%;
     margin-bottom: 0;
-
-
 }
 
 p {
