@@ -31,6 +31,33 @@ header nav a:hover {
 }
 
 
+<<<<<<< HEAD
+=======
+/*Navigation dental side*/
+
+#dental .column_narrow nav a {
+    font-family: 'arial regular';
+    font-size: 120%;
+    text-align: left;
+    list-style-type: none;
+    width: 200px;
+    background-color: lightblue;
+    margin-left: 15px;
+
+
+}
+
+#dental .column_narrow nav a {
+    color: black;
+    display: block;
+    padding: 20px 8px;
+    text-decoration: none;
+
+}
+
+
+
+>>>>>>> origin/master
 /*Logo*/
 
 .logo img {
