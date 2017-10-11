@@ -41,9 +41,12 @@ header nav a:hover {
     width: 200px;
     background-color: lightblue;
     margin-left: 15px;
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> origin/master
 }
 
 #dental .column_narrow nav a {
@@ -51,10 +54,12 @@ header nav a:hover {
     display: block;
     padding: 20px 8px;
     text-decoration: none;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 }
-
 
 
 /*Logo*/
@@ -143,4 +148,52 @@ h1 {
 p {
     font-family: 'Franklin Gothic Book';
     font-size: 100%;
+}
+
+
+/******** Om seksjon ***********/
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#om .column_narrow {
+    flex-basis: 400px;
+    flex-grow: 1;
+    width: 100%;
+    padding: 15px;
+}
+
+#om .column_wide {
+    flex-basis: 400px;
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/******** Om seksjon slutt ***********/
+
+/* kontakt */
+
+#kontakt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kontakt .column_wide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    flex-basis: 400px;
+    padding: 20px;
+}
+
+#kontakt .column_narrow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 20px;
 }
