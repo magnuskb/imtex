@@ -136,13 +136,13 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 /*Skrifter*/
 
 h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 600%;
+    font-family: 'Lato', sans-serif;
+    font-size: 500%;
     margin-bottom: 0;
 }
 
 p {
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
 }
 
