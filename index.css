@@ -33,7 +33,7 @@ header nav a:hover {
 
 /*Navigation dental side*/
 
-#dental .column_narrow nav  {
+#dental .column_narrow nav {
     font-family: 'arial regular';
     font-size: 120%;
     text-align: left;
@@ -48,9 +48,15 @@ header nav a:hover {
     display: block;
     padding: 20px 8px;
     text-decoration: none;
-
 }
 
+
+/*Produkt grid*/
+
+#dental .column_wide {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*Logo*/
 
@@ -130,13 +136,13 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 /*Skrifter*/
 
 h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 600%;
+    font-family: 'Lato', sans-serif;
+    font-size: 500%;
     margin-bottom: 0;
 }
 
 p {
-    font-family: 'Franklin Gothic Book';
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
 }
 
@@ -165,6 +171,7 @@ p {
 
 /******** Om seksjon slutt ***********/
 
+
 /* kontakt */
 
 #kontakt {
@@ -184,7 +191,6 @@ p {
     padding: 20px;
     width: 100%;
     align-self: auto;
-
 }
 
 .googleMap {
@@ -198,5 +204,4 @@ p {
     flex-basis: 200px;
     padding: 20px;
     width: 100%;
-
 }
