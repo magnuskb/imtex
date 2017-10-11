@@ -1,0 +1,115 @@
+/*Navigation*/
+
+header {
+    position: fixed;
+    width: 100vw;
+    padding: 1em;
+   }
+
+header nav {
+    font-family: 'arial regular';
+    font-size: 120%;
+    text-align: right;
+    margin: 0 5vw 0 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 4px;
+    display: block;
+}
+
+header nav a:hover {
+    color: orange;
+}
+
+@media screen and (min-width:676px) {
+    header nav a {
+        display: inline-block;
+    }
+}
+
+/*Logo*/
+#splash .logo img {
+    box-sizing: content-box;
+    padding: 5px;
+    width: 15vw;
+
+}
+
+/*Søg bar*/
+input[type=text] {
+    width: 100px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* tryk på feltet og det ændre width */
+input[type=text]:focus {
+    width: 15%;
+}
+
+/*Splash billede*/
+#splash {
+    width: 100%;
+    height: 167.2vw;
+    background-image: url(img/mobil-portraet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (orientation:landscape) and (max-width: 627px) and (min-width: 376px) {
+    #splash {
+        background-image: url(img/mobile-landscape.jpg);
+        height: 59.8vw;
+    }
+}
+
+@media screen and (orientation: portrait) and (min-width: 376px) {
+    #splash {
+        background-image: url(img/tablet-portrait.jpg);
+        height: 133vw;
+    }
+}
+
+@media screen and (orientation:landscape) and (min-width: 628px) and (max-width: 1024px) {
+    #splash {
+        background-image: url(img/tablet-landscape.jpg);
+        height: 75vw;
+    }
+}
+
+@media screen and (orientation:landscape) and (min-width: 1024px) {
+    #splash {
+        background-image: url(img/desktop.jpg);
+        height: 56.25vw;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+    #splash {
+        background-image: url('img/desktop-retina.jpg');
+    }
+}
+
+.forsidetekst {
+text-align: center;
+}
+
+
+/*Skrifter*/
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 600%;
+    margin-bottom: 0;
+
+
+}
+
+p {
+    font-family: 'Franklin Gothic Book';
+    font-size: 100%;
+}
