@@ -32,6 +32,7 @@ header nav a:hover {
 
 #dental .column_narrow {}
 
+
 /*Navigation dental side*/
 
 #dental .column_narrow nav {
@@ -62,6 +63,7 @@ header nav a:hover {
 #dental .sectionwrapper {
     display: flex;
 }
+
 
 /*Logo*/
 
@@ -163,18 +165,19 @@ p {
     flex-basis: 400px;
     flex-grow: 1;
     width: 100%;
-    padding: 15px;
+    padding: 0px 15px 15px 15px;
 }
 
 #om .column_wide {
     flex-basis: 400px;
     flex-grow: 1;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
 }
 
 
 /******** Om seksjon slutt ***********/
+
 
 /* kontakt */
 
@@ -197,8 +200,6 @@ p {
     height: 100%;
     align-content: flex-start;
 }
-
-
 
 #kontakt .column_narrow {
     display: flex;
