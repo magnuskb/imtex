@@ -35,8 +35,12 @@ header nav a:hover {
     }
 }
 
+<<<<<<< HEAD
 
 #dental .produkt {
+=======
+<<<<<<< HEAD #dental .produkt {
+>>>>>>> origin/master
     width: 100px;
     height: 100px;
     margin-bottom: 70px;
@@ -46,7 +50,17 @@ header nav a:hover {
 #dental .column_narrow {
     margin-top: 35px;
 }
+<<<<<<< HEAD
+=======
 
+<<<<<<< HEAD
+=======#dental .column_narrow {}
+
+> > > > > > > origin/master
+=======
+>>>>>>> origin/master
+
+>>>>>>> origin/master
 /*Navigation dental side*/
 
 #dental .column_narrow nav {
@@ -86,6 +100,7 @@ img {
 #dental .sectionwrapper {
     display: flex;
 }
+
 
 /*Logo*/
 
@@ -187,25 +202,21 @@ p {
     flex-basis: 400px;
     flex-grow: 1;
     width: 100%;
-    padding: 15px;
+    padding: 0px 15px 15px 15px;
 }
 
 #om .column_wide {
     flex-basis: 400px;
     flex-grow: 1;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
 }
 
 
 /******** Om seksjon slutt ***********/
 
-/* kontakt */
 
-#kontakt {
-    max-width: 1024px;
-    margin: 0 auto;
-}
+/* kontakt */
 
 #kontakt {
     box-sizing: content-box;
@@ -226,8 +237,6 @@ p {
     height: 100%;
 
 }
-
-
 
 #kontakt .column_narrow {
     display: flex;
