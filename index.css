@@ -31,8 +31,6 @@ header nav a:hover {
 }
 
 
-<<<<<<< HEAD
-=======
 /*Navigation dental side*/
 
 #dental .column_narrow nav a {
@@ -43,8 +41,6 @@ header nav a:hover {
     width: 200px;
     background-color: lightblue;
     margin-left: 15px;
-
-
 }
 
 #dental .column_narrow nav a {
@@ -52,12 +48,9 @@ header nav a:hover {
     display: block;
     padding: 20px 8px;
     text-decoration: none;
-
 }
 
 
-
->>>>>>> origin/master
 /*Logo*/
 
 .logo img {
@@ -165,7 +158,7 @@ p {
     flex-basis: 400px;
     flex-grow: 1;
     width: 100%;
-    padding: 15px;
+    padding: 20px;
 }
 
 
