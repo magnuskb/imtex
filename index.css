@@ -30,6 +30,9 @@ header nav a:hover {
     }
 }
 
+#dental .column_narrow {
+
+}
 
 /*Navigation dental side*/
 
@@ -60,7 +63,6 @@ header nav a:hover {
 
 #dental .sectionwrapper {
     display: flex;
-    flex-wrap: wrap;
 }
 
 /*Logo*/
