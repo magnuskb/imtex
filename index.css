@@ -1,116 +1,162 @@
-/*Navigation*/
+    /*Navigation*/
 
-header {
-    position: fixed;
-    width: 100vw;
-    padding: 1em;
-   }
+    header {
+        position: fixed;
+        width: 100vw;
+        padding: 1em;
+    }
 
-header nav {
-    font-family: 'arial regular';
-    font-size: 120%;
-    text-align: right;
-    margin: 0 5vw 0 0;
-}
+    header nav {
+        font-family: 'arial regular';
+        font-size: 120%;
+        text-align: right;
+        margin: 0 5vw 0 0;
+    }
 
-header nav a {
-    text-decoration: none;
-    color: black;
-    padding-left: 4px;
-    display: block;
-}
-
-header nav a:hover {
-    color: orange;
-}
-
-@media screen and (min-width:676px) {
     header nav a {
-        display: inline-block;
+        text-decoration: none;
+        color: black;
+        padding-left: 4px;
+        display: block;
     }
-}
 
-/*Logo*/
+    header nav a:hover {
+        color: orange;
+    }
 
-.logo img {
-    box-sizing: content-box;
-    padding: 5px;
-    width: 15vw;
+    @media screen and (min-width:676px) {
+        header nav a {
+            display: inline-block;
+        }
+    }
+    /*Logo*/
 
-}
+    .logo img {
+        box-sizing: content-box;
+        padding: 5px;
+        width: 15vw;
+    }
+    /*Søg bar*/
 
-/*Søg bar*/
-input[type=text] {
-    width: 100px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
+    input[type=text] {
+        width: 100px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    /* tryk på feltet og det ændre width */
 
-/* tryk på feltet og det ændre width */
-input[type=text]:focus {
-    width: 15%;
-}
+    input[type=text]:focus {
+        width: 15%;
+    }
+    /*Splash billede*/
 
-/*Splash billede*/
-#splash {
-    width: 100%;
-    height: 167.2vw;
-    background-image: url(img/mobil-portraet.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media screen and (orientation:landscape) and (max-width: 627px) and (min-width: 376px) {
     #splash {
-        background-image: url(img/mobile-landscape.jpg);
-        height: 59.8vw;
+        width: 100%;
+        height: 167.2vw;
+        background-image: url(img/mobil-portraet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-}
 
-@media screen and (orientation: portrait) and (min-width: 376px) {
-    #splash {
-        background-image: url(img/tablet-portrait.jpg);
-        height: 133vw;
+    @media screen and (orientation:landscape) and (max-width: 627px) and (min-width: 376px) {
+        #splash {
+            background-image: url(img/mobile-landscape.jpg);
+            height: 59.8vw;
+        }
     }
-}
 
-@media screen and (orientation:landscape) and (min-width: 628px) and (max-width: 1024px) {
-    #splash {
-        background-image: url(img/tablet-landscape.jpg);
-        height: 75vw;
+    @media screen and (orientation: portrait) and (min-width: 376px) {
+        #splash {
+            background-image: url(img/tablet-portrait.jpg);
+            height: 133vw;
+        }
     }
-}
 
-@media screen and (orientation:landscape) and (min-width: 1024px) {
-    #splash {
-        background-image: url(img/desktop.jpg);
-        height: 56.25vw;
+    @media screen and (orientation:landscape) and (min-width: 628px) and (max-width: 1024px) {
+        #splash {
+            background-image: url(img/tablet-landscape.jpg);
+            height: 75vw;
+        }
     }
-}
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
-screen and (min-resolution: 192dpi) and (min-width: 1025px) {
-    #splash {
-        background-image: url('img/desktop-retina.jpg');
+    @media screen and (orientation:landscape) and (min-width: 1024px) {
+        #splash {
+            background-image: url(img/desktop.jpg);
+            height: 56.25vw;
+        }
     }
-}
 
-.forsidetekst {
-text-align: center;
-}
+    @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+    screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+        #splash {
+            background-image: url('img/desktop-retina.jpg');
+        }
+    }
 
+    .forsidetekst {
+        text-align: center;
+    }
+    /*Skrifter*/
 
-/*Skrifter*/
+    h1 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 600%;
+        margin-bottom: 0;
+    }
 
-h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 600%;
-    margin-bottom: 0;
+    p {
+        font-family: 'Franklin Gothic Book';
+        font-size: 100%;
+    }
 
+    #produkter .thumbnail {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 
-}
+    #produkter .medical {
+        flex-basis: 400px;
+        flex-grow: 1;
+        position: relative;
+        width: 100%;
+    }
 
-p {
-    font-family: 'Franklin Gothic Book';
-    font-size: 100%;
-}
+    #produkter .medical img {
+        height: 350px;
+        width: 350px;
+        width: 65%;
+    }
+
+    #produkter .medical h2 {
+        position: absolute;
+        top: 10px;
+        left: 1px;
+        width: 100%;
+    }
+
+    #produkter .medical h3 {
+        text-align: center;
+        font-size: 400%;
+    }
+
+    #section .produkter h2 {
+        text-align: center;
+    }
+
+    .footer p {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.7;
+        padding: 50px 0px;
+        position: absolute;
+        background-color: darkgrey;
+        width: 100%;
+    }
+
+    .footercolumn {
+        padding: 50px 0px;
+        align-items: center;
+        text-align: center;
+        opacity: 0.7;
+    }
