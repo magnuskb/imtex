@@ -166,6 +166,10 @@ p {
 
 /* kontakt */
 
+#kontakt {
+    box-sizing: content-box;
+}
+
 #kontakt .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -175,14 +179,23 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 2;
-    flex-basis: 400px;
+    flex-basis: 200px;
     padding: 20px;
+    width: 100%;
+    align-self: auto;
+
+}
+
+.googleMap {
+    align-content: flex-end;
 }
 
 #kontakt .column_narrow {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    flex-basis: 400px;
+    flex-basis: 200px;
     padding: 20px;
+    width: 100%;
+
 }
