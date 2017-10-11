@@ -31,7 +31,8 @@ header nav a:hover {
 }
 
 /*Logo*/
-#splash .logo img {
+
+.logo img {
     box-sizing: content-box;
     padding: 5px;
     width: 15vw;
