@@ -169,6 +169,8 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 .forsidetekst {
     text-align: center;
+
+
 }
 
 
@@ -188,16 +190,13 @@ p {
 
 /******** Om seksjon ***********/
 
-#om .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
+#om .sectionwrapper {}
 
 #om .column_narrow {
     flex-basis: 400px;
     flex-grow: 1;
-    width: 100%;
-    padding: 0px 15px 15px 15px;
+    width: 100vw;
+    text-align: center;
 }
 
 #om p {
@@ -205,10 +204,10 @@ p {
 }
 
 #om .column_wide {
-    flex-basis: 400px;
     flex-grow: 1;
-    width: 100%;
+    width: 100vw;
     padding: 15px;
+    justify-content: center;
 }
 
 
