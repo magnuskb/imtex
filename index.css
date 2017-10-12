@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Navigation*/
 
 * {
@@ -78,115 +79,97 @@ img {
     width: 100%;
     height: 100%;
 }
+=======
+    /*Navigation*/
+>>>>>>> origin/master
 
-#dental .sectionwrapper {
-    display: flex;
-}
-
-
-/*Logo*/
-
-.logo img {
-    box-sizing: content-box;
-    padding: 5px;
-    width: 15vw;
-}
-
-
-/*Søg bar*/
-
-input[type=text] {
-    width: 100px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-
-/* tryk på feltet og det ændre width */
-
-input[type=text]:focus {
-    width: 15%;
-}
-
-
-/*Splash billede*/
-
-#splash {
-    width: 100%;
-    height: 167.2vw;
-    background-image: url(img/mobil-portraet.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media screen and (orientation:landscape) and (max-width: 627px) and (min-width: 376px) {
-    #splash {
-        background-image: url(img/mobile-landscape.jpg);
-        height: 59.8vw;
+    header {
+        position: fixed;
+        width: 100vw;
+        padding: 1em;
     }
-}
 
-@media screen and (orientation: portrait) and (min-width: 376px) {
-    #splash {
-        background-image: url(img/tablet-portrait.jpg);
-        height: 133vw;
+    header nav {
+        font-family: 'arial regular';
+        font-size: 120%;
+        text-align: right;
+        margin: 0 5vw 0 0;
     }
-}
 
-@media screen and (orientation:landscape) and (min-width: 628px) and (max-width: 1024px) {
-    #splash {
-        background-image: url(img/tablet-landscape.jpg);
-        height: 75vw;
+    header nav a {
+        text-decoration: none;
+        color: black;
+        padding-left: 4px;
+        display: block;
     }
-}
 
-@media screen and (orientation:landscape) and (min-width: 1024px) {
-    #splash {
-        background-image: url(img/desktop.jpg);
-        height: 56.25vw;
+    header nav a:hover {
+        color: orange;
     }
-}
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
-screen and (min-resolution: 192dpi) and (min-width: 1025px) {
-    #splash {
-        background-image: url('img/desktop-retina.jpg');
+    @media screen and (min-width:676px) {
+        header nav a {
+            display: inline-block;
+        }
     }
-}
+    /*Logo*/
 
-.forsidetekst {
-    text-align: center;
-}
+    .logo img {
+        box-sizing: content-box;
+        padding: 5px;
+        width: 15vw;
+    }
+    /*Søg bar*/
 
+    input[type=text] {
+        width: 100px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    /* tryk på feltet og det ændre width */
 
-/*Skrifter*/
+    input[type=text]:focus {
+        width: 15%;
+    }
+    /*Splash billede*/
 
-h1 {
-    font-family: 'Lato', sans-serif;
-    font-size: 500%;
-    margin-bottom: 0;
-}
+    #splash {
+        width: 100%;
+        height: 167.2vw;
+        background-image: url(img/mobil-portraet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 100%;
-}
+    @media screen and (orientation:landscape) and (max-width: 627px) and (min-width: 376px) {
+        #splash {
+            background-image: url(img/mobile-landscape.jpg);
+            height: 59.8vw;
+        }
+    }
 
+    @media screen and (orientation: portrait) and (min-width: 376px) {
+        #splash {
+            background-image: url(img/tablet-portrait.jpg);
+            height: 133vw;
+        }
+    }
 
-/******** Om seksjon ***********/
+    @media screen and (orientation:landscape) and (min-width: 628px) and (max-width: 1024px) {
+        #splash {
+            background-image: url(img/tablet-landscape.jpg);
+            height: 75vw;
+        }
+    }
 
-#om .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
+    @media screen and (orientation:landscape) and (min-width: 1024px) {
+        #splash {
+            background-image: url(img/desktop.jpg);
+            height: 56.25vw;
+        }
+    }
 
-#om .column_narrow {
-    flex-basis: 400px;
-    flex-grow: 1;
-    width: 100%;
-    padding: 0px 15px 15px 15px;
-}
-
+<<<<<<< HEAD
 #om p {
     padding: 5px;
 }
@@ -197,27 +180,58 @@ p {
     width: 100%;
     padding: 15px;
 }
+=======
+    @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+    screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+        #splash {
+            background-image: url('img/desktop-retina.jpg');
+        }
+    }
+>>>>>>> origin/master
 
+    .forsidetekst {
+        text-align: center;
+    }
+    /*Skrifter*/
 
-/******** Om seksjon slutt ***********/
+    h1 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 600%;
+        margin-bottom: 0;
+    }
 
+    p {
+        font-family: 'Franklin Gothic Book';
+        font-size: 100%;
+    }
 
-/* kontakt */
+    #produkter .thumbnail {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 
-#kontakt {
-    max-width: 1024px;
-    margin: 0 auto;
-}
+    #produkter .medical {
+        flex-basis: 400px;
+        flex-grow: 1;
+        position: relative;
+        width: 100%;
+    }
 
-#kontakt {
-    box-sizing: content-box;
-}
+    #produkter .medical img {
+        height: 350px;
+        width: 350px;
+        width: 65%;
+    }
 
-#kontakt .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
+    #produkter .medical h2 {
+        position: absolute;
+        top: 10px;
+        left: 1px;
+        width: 100%;
+    }
 
+<<<<<<< HEAD
 #kontakt .column_wide {
     display: flex;
     flex-wrap: wrap;
@@ -284,3 +298,30 @@ p {
     left: 1px;
     width: 100%;
 }
+=======
+    #produkter .medical h3 {
+        text-align: center;
+        font-size: 400%;
+    }
+
+    #section .produkter h2 {
+        text-align: center;
+    }
+
+    .footer p {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.7;
+        padding: 50px 0px;
+        position: absolute;
+        background-color: darkgrey;
+        width: 100%;
+    }
+
+    .footercolumn {
+        padding: 50px 0px;
+        align-items: center;
+        text-align: center;
+        opacity: 0.7;
+    }
+>>>>>>> origin/master
