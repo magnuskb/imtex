@@ -187,8 +187,8 @@ h2 {
 
 #om .column_narrow {
     flex-basis: 400px;
-    flex-grow: 1;
-    width: 100vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     text-align: center;
 }
 
@@ -197,9 +197,7 @@ h2 {
 }
 
 #om .column_wide {
-    flex-grow: 1;
     width: 100vw;
-    padding: 15px;
     justify-content: center;
 }
 
