@@ -238,14 +238,14 @@ p {
     display: flex;
     flex-wrap: wrap;
     opacity: 0.7;
-    padding: 50px 0px;
+    padding: 20px 0px;
     position: absolute;
     background-color: darkgrey;
     width: 100%;
 }
 
 .footercolumn {
-    padding: 50px 0px;
+    padding: 20px 0px;
     align-items: center;
     text-align: center;
     opacity: 0.7;
