@@ -9,6 +9,7 @@ header {
     position: fixed;
     width: 100vw;
     padding: 1em;
+    float: left;
 }
 
 header nav {
@@ -16,6 +17,8 @@ header nav {
     font-size: 120%;
     text-align: right;
     margin: 0 5vw 0 0;
+    display: flex;
+    justify-content:flex-end;
 }
 
 header nav a {
@@ -36,21 +39,18 @@ header nav a:hover {
     }
 }
 
-<<<<<<< HEAD #dental .produkt {
+#dental .produkt {
     width: 100px;
-<<<<<<< HEAD
     margin-bottom: 70px;
     margin-left: 90px;
     flex-wrap: wrap;
-=======
     height: 100px;
     margin-left: 90px;
     margin-bottom: 70px;
     text-align: center;
->>>>>>> origin/master
 }
 
-=======#dental .column_narrow {}
+#dental .column_narrow {}
 
 >>>>>>>origin/master
 /*Navigation dental side*/
@@ -78,12 +78,9 @@ header nav a:hover {
 #dental .column_wide {
     display: flex;
     flex-wrap: wrap;
-<<<<<<< HEAD
     max-width: 750px;
     justify-content: space-around;
-=======
     width: 750px;
->>>>>>> origin/master
 }
 
 img {
@@ -95,6 +92,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 200px;
+    float: left;
 }
 
 
@@ -172,7 +170,6 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     text-align: center;
     margin-top: 150px;
 
-
 }
 
 
@@ -188,6 +185,10 @@ p {
     font-size: 100%;
 }
 
+li {
+    display: inline;
+    margin-right: 20px;
+}
 
 /******** Om seksjon ***********/
 
