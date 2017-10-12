@@ -38,9 +38,9 @@ header nav a:hover {
 
 #dental .produkt {
     width: 100px;
-    height: 100px;
     margin-bottom: 70px;
     margin-left: 90px;
+    flex-wrap: wrap;
 }
 
 #dental .column_narrow {
@@ -74,7 +74,7 @@ width: 200px;
 #dental .column_wide {
     display: flex;
     flex-wrap: wrap;
-    width: 750px;
+    max-width: 750px;
     justify-content: space-around;
 }
 
@@ -85,6 +85,8 @@ img {
 
 #dental .sectionwrapper {
     display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
 }
 
 /*Logo*/
