@@ -9,6 +9,7 @@ header {
     position: fixed;
     width: 100vw;
     padding: 1em;
+    float: left;
 }
 
 header nav {
@@ -16,6 +17,8 @@ header nav {
     font-size: 120%;
     text-align: right;
     margin: 0 5vw 0 0;
+    display: flex;
+    justify-content:flex-end;
 }
 
 header nav a {
@@ -36,15 +39,18 @@ header nav a:hover {
     }
 }
 
-<<<<<<< HEAD #dental .produkt {
+#dental .produkt {
     width: 100px;
+    margin-bottom: 70px;
+    margin-left: 90px;
+    flex-wrap: wrap;
     height: 100px;
     margin-left: 90px;
     margin-bottom: 70px;
     text-align: center;
 }
 
-=======#dental .column_narrow {}
+#dental .column_narrow {}
 
 >>>>>>>origin/master
 /*Navigation dental side*/
@@ -72,6 +78,8 @@ header nav a:hover {
 #dental .column_wide {
     display: flex;
     flex-wrap: wrap;
+    max-width: 750px;
+    justify-content: space-around;
     width: 750px;
 }
 
@@ -82,6 +90,9 @@ img {
 
 #dental .sectionwrapper {
     display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    float: left;
 }
 
 
@@ -91,7 +102,6 @@ img {
     box-sizing: content-box;
     padding-left: 10px;
     width: 10vw;
-
 }
 
 
@@ -119,6 +129,10 @@ input[type=text]:focus {
     background-image: url(img/mobil-portraet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#splash .column_narrow {
+    align-items: flex-end;
 }
 
 @media screen and (orientation:landscape) and (max-width: 627px) and (min-width: 376px) {
@@ -159,8 +173,10 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 .forsidetekst {
     text-align: center;
     margin-top: 150px;
+<<<<<<< HEAD
+=======
 
-
+>>>>>>> origin/master
 }
 
 
@@ -168,7 +184,7 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 500%;
+    font-size: 650%;
 }
 
 p {
@@ -178,18 +194,23 @@ p {
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 90%;
+    font-size: 120%;
 }
 
+li {
+    display: inline;
+    margin-right: 20px;
+}
 
 /******** Om seksjon ***********/
 
-#om .sectionwrapper {}
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 #om .column_narrow {
     flex-basis: 400px;
-    margin-left: 20vw;
-    margin-right: 20vw;
     text-align: center;
 }
 
@@ -198,7 +219,6 @@ h2 {
 }
 
 #om .column_wide {
-    width: 100vw;
     justify-content: center;
 }
 
