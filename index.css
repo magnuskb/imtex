@@ -18,7 +18,7 @@ header nav {
     text-align: right;
     margin: 0 5vw 0 0;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 header nav a {
@@ -173,10 +173,7 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 .forsidetekst {
     text-align: center;
     margin-top: 150px;
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
+    <<<<<<< HEAD=======>>>>>>>origin/master
 }
 
 
@@ -202,6 +199,7 @@ li {
     margin-right: 20px;
 }
 
+
 /******** Om seksjon ***********/
 
 #om .sectionwrapper {
@@ -209,9 +207,18 @@ li {
     flex-wrap: wrap;
 }
 
+body {
+    background-image: url("lab.jpg");
+}
+
 #om .column_narrow {
     flex-basis: 400px;
-    text-align: center;
+    background-color: white;
+    opacity: 0.5;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 #om p {
@@ -220,6 +227,10 @@ li {
 
 #om .column_wide {
     justify-content: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -229,7 +240,7 @@ li {
 /* kontakt */
 
 #kontakt {
-    margin: 0 auto;
+    margin: 2 auto;
 }
 
 #kontakt {
@@ -249,6 +260,12 @@ li {
     padding: 20px;
     width: 100%;
     height: 100%;
+    background-color: white;
+    opacity: 0.5;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom:
 }
 
 #kontakt .column_narrow {
@@ -256,7 +273,10 @@ li {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 400px;
-    padding: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     width: 100%;
     height: 100%;
 }
@@ -272,7 +292,7 @@ li {
 }
 
 .footercolumn {
-    padding: 20px 0px;
+    padding: 0px 0px;
     align-items: center;
     text-align: center;
     opacity: 0.7;
