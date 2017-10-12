@@ -131,6 +131,10 @@ input[type=text]:focus {
     background-size: cover;
 }
 
+#splash .column_narrow {
+    align-items: flex-end;
+}
+
 @media screen and (orientation:landscape) and (max-width: 627px) and (min-width: 376px) {
     #splash {
         background-image: url(img/mobile-landscape.jpg);
@@ -169,7 +173,10 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 .forsidetekst {
     text-align: center;
     margin-top: 150px;
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/master
 }
 
 
@@ -197,12 +204,13 @@ li {
 
 /******** Om seksjon ***********/
 
-#om .sectionwrapper {}
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 #om .column_narrow {
     flex-basis: 400px;
-    margin-left: 20vw;
-    margin-right: 20vw;
     text-align: center;
 }
 
@@ -211,7 +219,6 @@ li {
 }
 
 #om .column_wide {
-    width: 100vw;
     justify-content: center;
 }
 
@@ -291,7 +298,6 @@ li {
 #produkter .medical img {
     height: 350px;
     width: 350px;
-    width: 65%;
 }
 
 #produkter .medical h2 {
