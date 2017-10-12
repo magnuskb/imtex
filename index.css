@@ -26,7 +26,7 @@ header nav {
     text-align: right;
     margin: 0 5vw 0 0;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 header nav a {
@@ -35,6 +35,7 @@ header nav a {
     padding-left: 4px;
     display: block;
     font-size: 80%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 header nav a:hover {
@@ -60,6 +61,10 @@ header nav a:hover {
 
 #dental .column_narrow {}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 /*Navigation dental side*/
 
 #dental .column_narrow nav {
@@ -124,7 +129,7 @@ input[type=text] {
 /* tryk på feltet og det ændre width */
 
 input[type=text]:focus {
-    width: 15%;
+    width: 100%;
 }
 
 
@@ -180,6 +185,10 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 .forsidetekst {
     text-align: center;
     margin-top: 150px;
+<<<<<<< HEAD
+=======
+    <<<<<<< HEAD=======<<<<<<< HEAD=======>>>>>>>origin/master>>>>>>>origin/master
+>>>>>>> origin/master
 }
 
 
@@ -205,16 +214,28 @@ li {
     margin-right: 20px;
 }
 
+
 /******** Om seksjon ***********/
 
 #om .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+body {
+    background-image: url("lab.jpg");
 }
 
 #om .column_narrow {
     flex-basis: 400px;
-    text-align: center;
+    flex-grow: 1;
+    background-color: rgba(225, 225, 225, 0.5);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 #om p {
@@ -222,7 +243,11 @@ li {
 }
 
 #om .column_wide {
-    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    flex-grow: 1;
 }
 
 
@@ -249,9 +274,13 @@ li {
     flex-wrap: wrap;
     flex-grow: 2;
     flex-basis: 400px;
-    padding: 20px;
     width: 100%;
     height: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: rgba(225, 225, 225, 0.5);
 }
 
 #kontakt .column_narrow {
@@ -259,9 +288,12 @@ li {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 400px;
-    padding: 20px;
     width: 100%;
     height: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
 .footer p {
@@ -270,7 +302,7 @@ li {
     opacity: 0.7;
     padding: 20px 0px;
     position: absolute;
-    background-color: darkgrey;
+    background-color: rgba(225, 225, 225, 0.5);
     width: 100%;
 }
 
@@ -278,7 +310,7 @@ li {
     padding: 20px 0px;
     align-items: center;
     text-align: center;
-    opacity: 0.7;
+    align-self: flex-end;
 }
 
 #produkter .thumbnail {
