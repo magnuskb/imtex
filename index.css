@@ -118,7 +118,7 @@ input[type=text] {
 /* tryk på feltet og det ændre width */
 
 input[type=text]:focus {
-    width: 15%;
+    width: 100%;
 }
 
 
