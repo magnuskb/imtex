@@ -17,6 +17,8 @@ header nav {
     margin: 0 5vw 0 0;
     display: flex;
     justify-content: flex-end;
+
+
 }
 
 header nav a {
@@ -26,7 +28,9 @@ header nav a {
     display: block;
     font-size: 80%;
     font-family: 'Source Sans Pro', sans-serif;
-}
+    background: #fff;
+   padding: 3px 10px;
+   }
 
 header nav a:hover {
     color: orange;
