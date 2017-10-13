@@ -18,8 +18,6 @@ header nav {
     margin: 0 5vw 0 0;
     display: flex;
     justify-content: flex-end;
-
-
 }
 
 header nav a {
@@ -29,9 +27,7 @@ header nav a {
     display: block;
     font-size: 80%;
     font-family: 'Source Sans Pro', sans-serif;
-    background: #fff;
-   padding: 3px 10px;
-   }
+}
 
 header nav a:hover {
     color: orange;
@@ -147,22 +143,15 @@ li {
 /******** Om seksjon ***********/
 
 #om .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 500px;
+    max-width: 600px;
+    margin: 0 auto;
     background-color: whitesmoke;
 }
 
-#om .column {
-    flex-basis: 400px;
-    flex-grow: 1;
-    margin-right: 20px;
+#om .content {
     /*background-color: rgba(186, 207, 214, 0.5);
     width: 100%;
     box-shadow: 10px 10px 5px #c1e1e6;*/
-    margin-left: 20vw;
-    margin-right: 20vw;
 }
 
 #om p {
@@ -170,17 +159,44 @@ li {
     color: grey;
 }
 
-#video .column {
-    flex-grow: 1;
-}
 
 #video .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 400px;
+    max-width: 600px;
+    margin: 0 auto;
     background-color: whitesmoke;
+
 }
+
+#video .content {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+/* 16x9 Aspect Ratio */
+
+#video .content-16x9 {
+    padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+
+#video .content-4x3 {
+    padding-bottom: 75%;
+}
+
+#video .content iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* #video .content iframe {
+    width: 100%;
+}
+*/
 
 #om h3 {
     font-size: 50px;
@@ -194,7 +210,7 @@ body {
     background-color: whitesmoke;
 }
 
-#produkter .column {
+#produkter .thumbnail {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -309,6 +325,7 @@ a h2:active {
 medical a:hover {
     color: darkcyan;
 }
+<<<<<<< HEAD
 
 
 
@@ -324,3 +341,5 @@ filter: alpha(opacity=100);
 	opacity: 0.3;
 	filter: alpha(opacity=30);
 }
+=======
+>>>>>>> origin/master
