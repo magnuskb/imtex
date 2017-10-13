@@ -27,11 +27,9 @@ header nav a {
     display: block;
     font-size: 80%;
     font-family: 'Source Sans Pro', sans-serif;
-<<<<<<< HEAD
-    background: #fff;
+    <<<<<<< HEAD background: #fff;
     padding: 3px 10px;
-=======
->>>>>>> origin/master
+    =======>>>>>>>origin/master
 }
 
 header nav a:hover {
@@ -164,12 +162,10 @@ li {
     color: grey;
 }
 
-
 #video .sectionwrapper {
     max-width: 600px;
     margin: 0 auto;
     background-color: whitesmoke;
-
 }
 
 #video .content {
@@ -178,11 +174,13 @@ li {
     overflow: hidden;
 }
 
+
 /* 16x9 Aspect Ratio */
 
 #video .content-16x9 {
     padding-bottom: 56.25%;
 }
+
 
 /* 4x3 Aspect Ratio */
 
@@ -197,6 +195,7 @@ li {
     width: 100%;
     height: 100%;
 }
+
 
 /* #video .content iframe {
     width: 100%;
@@ -308,21 +307,20 @@ body {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 #parent .box h2 {
     font-family: sans-serif;
     top: 200px;
     width: 10%;
     font-size: 50px;
-=======
-#produkter .medical h2 {
+}
+
+#parent .box h2 {
     text-align: center;
     font-family: sans-serif;
     text-decoration: none;
     top: 130px;
     width: 80%;
     font-size: 20px;
->>>>>>> origin/master
     position: absolute;
 }
 
@@ -332,7 +330,6 @@ body {
     background-color: white;
     opacity: 0.8;
     text-decoration: none;
-<<<<<<< HEAD
 }
 
 .box a h2:hover {
@@ -345,19 +342,7 @@ body {
 .url {
     opacity: 1;
     filter: alpha(opacity=100);
-=======
-    color: white;
 }
-
-a h2:active {
-    color: aquamarine;
-}
-
-medical a:hover {
-    color: darkcyan;
->>>>>>> origin/master
-}
-<<<<<<< HEAD
 
 .medical img:hover {
     opacity: 0.3;
@@ -369,7 +354,6 @@ medical a:hover {
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 .box {
     width: 250px;
     height: 250px;
@@ -402,9 +386,6 @@ medical a:hover {
     background-image: url(img/laboratorie.jpg);
     background-size: cover;
 }
-=======
-/********Produkterbilleder Mouseover fade effect *************/
->>>>>>> origin/master
 
 .box4 {
     background-image: url(img/renrum.jpg);
@@ -420,5 +401,3 @@ medical a:hover {
     background-image: url(img/Sk%C3%A6rmbillede%202017-10-12%20kl.%2009.58.18.png);
     background-size: cover;
 }
-=======
->>>>>>> origin/master
