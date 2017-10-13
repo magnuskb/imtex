@@ -29,7 +29,7 @@ header nav a {
     font-family: 'Source Sans Pro', sans-serif;
     <<<<<<< HEAD background: #fff;
     padding: 3px 10px;
-    =======>>>>>>>origin/master
+    ======= > > > > > > > origin/master
 }
 
 header nav a:hover {
@@ -212,6 +212,11 @@ li {
 
 body {
     background-color: whitesmoke;
+}
+
+#produkter {
+    max-width: 1000px;
+    margin: 0 40vw;
 }
 
 #produkter .thumbnail {
