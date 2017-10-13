@@ -152,7 +152,6 @@ li {
     /*background-color: rgba(186, 207, 214, 0.5);
     width: 100%;
     box-shadow: 10px 10px 5px #c1e1e6;*/
-    <
 }
 
 #om p {
@@ -163,7 +162,7 @@ li {
 
 #video .sectionwrapper {
     max-width: 600px;
-    margin: 0 5vw;
+    margin: 0 auto;
     background-color: whitesmoke;
 
 }
@@ -186,7 +185,7 @@ li {
     padding-bottom: 75%;
 }
 
-.content iframe {
+#video .content iframe {
     position: absolute;
     top: 0;
     left: 0;
