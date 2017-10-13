@@ -163,17 +163,12 @@ li {
 
 #video .sectionwrapper {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 5vw;
     background-color: whitesmoke;
 
 }
 
-/* #video .content iframe {
-    width: 100%;
-}
-*/
-
-.content {
+#video .content {
     position: relative;
     height: 0;
     overflow: hidden;
@@ -181,13 +176,13 @@ li {
 
 /* 16x9 Aspect Ratio */
 
-.content-16x9 {
+#video .content-16x9 {
     padding-bottom: 56.25%;
 }
 
 /* 4x3 Aspect Ratio */
 
-.content-4x3 {
+#video .content-4x3 {
     padding-bottom: 75%;
 }
 
@@ -198,6 +193,11 @@ li {
     width: 100%;
     height: 100%;
 }
+
+/* #video .content iframe {
+    width: 100%;
+}
+*/
 
 #om h3 {
     font-size: 50px;
