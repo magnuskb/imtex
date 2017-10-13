@@ -27,8 +27,11 @@ header nav a {
     display: block;
     font-size: 80%;
     font-family: 'Source Sans Pro', sans-serif;
+<<<<<<< HEAD
     background: #fff;
     padding: 3px 10px;
+=======
+>>>>>>> origin/master
 }
 
 header nav a:hover {
@@ -145,23 +148,15 @@ li {
 /******** Om seksjon ***********/
 
 #om .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 500px;
+    max-width: 600px;
+    margin: 0 auto;
     background-color: whitesmoke;
 }
 
-#om .column {
-    flex-basis: 400px;
-    flex-grow: 1;
-    margin-right: 20px;
+#om .content {
     /*background-color: rgba(186, 207, 214, 0.5);
     width: 100%;
     box-shadow: 10px 10px 5px #c1e1e6;*/
-    margin-left: 20vw;
-    margin-right: 20vw;
-    text-align: center;
 }
 
 #om p {
@@ -169,17 +164,44 @@ li {
     color: grey;
 }
 
-#video .column {
-    flex-grow: 1;
-}
 
 #video .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 400px;
+    max-width: 600px;
+    margin: 0 auto;
     background-color: whitesmoke;
+
 }
+
+#video .content {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+/* 16x9 Aspect Ratio */
+
+#video .content-16x9 {
+    padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+
+#video .content-4x3 {
+    padding-bottom: 75%;
+}
+
+#video .content iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* #video .content iframe {
+    width: 100%;
+}
+*/
 
 #om h3 {
     font-size: 50px;
@@ -193,14 +215,13 @@ body {
     background-color: whitesmoke;
 }
 
-#produkter .column {
+#produkter .thumbnail {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-bottom: 5vw;
-    align-items: center;
 }
 
 #produkter .medical {
@@ -287,11 +308,21 @@ body {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 #parent .box h2 {
     font-family: sans-serif;
     top: 200px;
     width: 10%;
     font-size: 50px;
+=======
+#produkter .medical h2 {
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    top: 130px;
+    width: 80%;
+    font-size: 20px;
+>>>>>>> origin/master
     position: absolute;
 }
 
@@ -301,6 +332,7 @@ body {
     background-color: white;
     opacity: 0.8;
     text-decoration: none;
+<<<<<<< HEAD
 }
 
 .box a h2:hover {
@@ -313,7 +345,19 @@ body {
 .url {
     opacity: 1;
     filter: alpha(opacity=100);
+=======
+    color: white;
 }
+
+a h2:active {
+    color: aquamarine;
+}
+
+medical a:hover {
+    color: darkcyan;
+>>>>>>> origin/master
+}
+<<<<<<< HEAD
 
 .medical img:hover {
     opacity: 0.3;
@@ -325,6 +369,7 @@ body {
     flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 .box {
     width: 250px;
     height: 250px;
@@ -357,6 +402,9 @@ body {
     background-image: url(img/laboratorie.jpg);
     background-size: cover;
 }
+=======
+/********Produkterbilleder Mouseover fade effect *************/
+>>>>>>> origin/master
 
 .box4 {
     background-image: url(img/renrum.jpg);
@@ -372,3 +420,5 @@ body {
     background-image: url(img/Sk%C3%A6rmbillede%202017-10-12%20kl.%2009.58.18.png);
     background-size: cover;
 }
+=======
+>>>>>>> origin/master
