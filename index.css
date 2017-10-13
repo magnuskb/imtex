@@ -27,9 +27,13 @@ header nav a {
     display: block;
     font-size: 80%;
     font-family: 'Source Sans Pro', sans-serif;
-    <<<<<<< HEAD background: #fff;
+    background: #fff;
     padding: 3px 10px;
+<<<<<<< HEAD
+
+=======
     ======= > > > > > > > origin/master
+>>>>>>> origin/master
 }
 
 header nav a:hover {
