@@ -5,6 +5,7 @@
 
 header {
     position: fixed;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
     width: 100vw;
     padding: 1em;
     float: left;
@@ -153,7 +154,7 @@ li {
     background-color: whitesmoke;
 }
 
-#om .column_narrow {
+#om .column {
     flex-basis: 400px;
     flex-grow: 1;
     margin-right: 20px;
@@ -169,7 +170,7 @@ li {
     color: grey;
 }
 
-#video .column_wide {
+#video .column {
     flex-grow: 1;
 }
 
@@ -193,7 +194,7 @@ body {
     background-color: whitesmoke;
 }
 
-#produkter .thumbnail {
+#produkter .column {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
