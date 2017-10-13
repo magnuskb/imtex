@@ -151,6 +151,11 @@ li {
     background-color: whitesmoke;
 }
 
+#om h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
 #om .content {
     /*background-color: rgba(186, 207, 214, 0.5);
     width: 100%;
@@ -166,6 +171,7 @@ li {
     max-width: 600px;
     margin: 0 auto;
     background-color: whitesmoke;
+    padding-bottom: 30px;
 }
 
 #video .content {
@@ -212,6 +218,10 @@ li {
 
 body {
     background-color: whitesmoke;
+}
+
+#produkter h3 {
+    text-align: center;
 }
 
 #produkter {
