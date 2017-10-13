@@ -159,6 +159,7 @@ li {
     box-shadow: 10px 10px 5px #c1e1e6;*/
     margin-left: 20vw;
     margin-right: 20vw;
+    text-align: center;
 }
 
 #om p {
@@ -197,6 +198,7 @@ body {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-bottom: 5vw;
+    align-items: center;
 }
 
 #produkter .medical {
@@ -284,24 +286,19 @@ body {
 }
 
 #produkter .medical h2 {
-    text-align: center;
     font-family: sans-serif;
     text-decoration: none;
-    top: 130px;
-    width: 80%;
-    font-size: 20px;
+    top: 200px;
+    width: 10%;
+    font-size: 35px;
     position: absolute;
 }
 
 .medical a h2 {
     text-decoration: none;
-    color: white;
+    color: orange;
 }
 
-a h2:active {
-    color: aquamarine;
-}
-
-medical a:hover {
-    color: darkcyan;
+.medical a h2:hover {
+    color: black;
 }
